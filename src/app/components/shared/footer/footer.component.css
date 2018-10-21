@@ -1,0 +1,12 @@
+footer {
+    color: white;
+    width: 100%;
+    background-color: black;
+    align-self: flex-end;
+    position: absolute;
+}
+
+.foto-logo {
+    width: 20px;
+    height: 20px;
+}

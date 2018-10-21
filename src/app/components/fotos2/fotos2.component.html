@@ -1,0 +1,11 @@
+<h1><b>Edimburgo</b> </h1>
+<hr>
+
+
+<div class="card-columns">
+
+    <!-- *ngFor="let heroe of heroes; let i = index" -->
+    <app-foto2-tarjeta (foto2Seleccionado)="verFoto2( $event )" [foto2]="foo" [index]="i" *ngFor="let foo of fotos2; let i = index"></app-foto2-tarjeta>
+
+
+</div>

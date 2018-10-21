@@ -1,0 +1,24 @@
+<h1 class="animated fadeIn"><b>{{ heroe.galeria }}</b> : <small>{{ heroe.nombre  }}</small></h1>
+<hr>
+
+<div class="row animated fadeIn fast">
+
+    <div class="col-md-12">
+
+        <img [src]="heroe.img" class="img-fluid" [alt]="heroe.nombre" [routerLink]="['/heroes']">
+
+
+    </div>
+
+    <div class="col-md-2">
+
+
+        <p>
+            {{ heroe.bio }}
+        </p>
+
+
+
+    </div>
+
+</div>

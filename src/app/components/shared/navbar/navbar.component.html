@@ -1,0 +1,56 @@
+<nav class="nav navbar navbar-expand-lg navbar bg fixed-top navbar navbar-dark ">
+
+    <img class="navbar-brand d-lg-none d-xl-none" src="assets/img/LOGO1.png" width="65px" height="95px" alt="" [routerLink]="['home']">
+    <img class="navbar-brand d-none d-lg-block" src="assets/img/LOGO1.png" width="65px" height="95px" alt="" [routerLink]="['home']">
+
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class=" navbar-nav mr-centre ">
+
+            <li class="nav-item " routerLinkActive="active">
+                <a class="nav nav-link" [routerLink]="['home']"> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown " routerLinkActive="active" style="display:inline-block;float:left; padding:10px;">
+                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:currentColor">
+                  Imágenes
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" [routerLink]="['heroes']">Behind the scenes</a>
+                    <a class="dropdown-item" [routerLink]="['fotos2']">Edimburgo</a>
+                    <a class="dropdown-item" [routerLink]="['fotos3']">Fotografía de producto</a>
+                    <a class="dropdown-item" [routerLink]="['fotos4']">Interiorismo</a>
+                    <a class="dropdown-item" [routerLink]="['fotos5']">Madrid</a>
+                    <a class="dropdown-item" [routerLink]="['fotos6']">Retrato</a>
+
+                </div>
+            </li>
+        </ul>
+
+
+
+
+        <ul class=" navbar-nav ml-centre ">
+            <li class="nav-item dropdown " routerLinkActive="active" style="display:inline-block;float:left; padding:10px;">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:currentColor">
+                  Vídeos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" [routerLink]="['videos1']">Cortometraje</a>
+                    <a class="dropdown-item" [routerLink]="['videos2']">Documental</a>
+                    <a class="dropdown-item" [routerLink]="['videos3']">Periódico Digital: Infoactualidad</a>
+                    <a class="dropdown-item" [routerLink]="['videos4']">Centro Superior de Estudios de Gestión</a>
+
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>

@@ -1,0 +1,29 @@
+import { Component, OnInit } from '@angular/core';
+import { Galeria1Service, Imagen1 } from '../../servicios/galeria1.service';
+import { Router } from '@angular/router';
+
+
+@Component({
+  selector: 'app-heroes',
+  templateUrl: './heroes.component.html'
+})
+export class HeroesComponent implements OnInit {
+
+  heroes: Imagen1[] = [];
+
+  constructor( private _heroesService: Galeria1Service,
+               private router: Router
+                ) {
+    // console.log("constructor");
+  }
+
+  ngOnInit() {
+    this.heroes = this._heroesService.getHeroes();
+    // console.log( this.heroes );
+  }
+
+  verHeroe( idx: number ) {
+    this.router.navigate( ['/heroe', idx] );
+  }
+
+}
