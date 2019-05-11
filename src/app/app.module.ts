@@ -44,6 +44,7 @@ import { Videos2Component } from './components/videos2/videos2.component';
 import { Videos3Component } from './components/videos3/videos3.component';
 import { Videos4Component } from './components/videos4/videos4.component';
 import { MontionComponent } from './components/montion/montion.component';
+import { ComponentsComponent } from './components/components.component';
 
 
 
@@ -80,6 +81,7 @@ import { MontionComponent } from './components/montion/montion.component';
     Videos3Component,
     Videos4Component,
     MontionComponent,
+    ComponentsComponent,
   ],
   imports: [
     BrowserModule,
