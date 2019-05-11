@@ -73,6 +73,27 @@ export class Galeria3Service {
       fecha: 'string',
       galeria: 'Fotografía de producto',
     },
+    {
+      nombre: 'Schweppes',
+      descripcion: 'string',
+      img: 'assets/img/FOTOGRAFÍA-DE-PRODUCTO/Schweppes-min.jpg',
+      fecha: 'string',
+      galeria: 'Fotografía de producto',
+    },
+    {
+      nombre: 'Fumar mata',
+      descripcion: 'string',
+      img: 'assets/img/FOTOGRAFÍA-DE-PRODUCTO/Fumarmata-min.jpg',
+      fecha: 'string',
+      galeria: 'Fotografía de producto',
+    },
+    {
+      nombre: 'Las autoridades sanitarias advierten',
+      descripcion: 'string',
+      img: 'assets/img/FOTOGRAFÍA-DE-PRODUCTO/Lasautoridadessanitariasadvierten-min.jpg',
+      fecha: 'string',
+      galeria: 'Fotografía de producto',
+    },
   ];
 
   constructor() { }

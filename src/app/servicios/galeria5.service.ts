@@ -186,6 +186,48 @@ export class Galeria5Service {
       fecha: 'string',
       galeria: 'Madrid',
     },
+    {
+      nombre: 'Pantalones de colores',
+      descripcion: 'string',
+      img: 'assets/img/MADRID/Pantalonesdecolores-min.jpg',
+      fecha: 'string',
+      galeria: 'Madrid',
+    },
+    {
+      nombre: 'Pastelería',
+      descripcion: 'string',
+      img: 'assets/img/MADRID/Pasteleria-min.jpg',
+      fecha: 'string',
+      galeria: 'Madrid',
+    },
+    {
+      nombre: 'Skate Park',
+      descripcion: 'string',
+      img: 'assets/img/MADRID/SkatePark-min.jpg',
+      fecha: 'string',
+      galeria: 'Madrid',
+    },
+    {
+      nombre: 'Campo de la Cebada',
+      descripcion: 'string',
+      img: 'assets/img/MADRID/Campodecebada-min.jpg',
+      fecha: 'string',
+      galeria: 'Madrid',
+    },
+    {
+      nombre: 'Gato callejero',
+      descripcion: 'string',
+      img: 'assets/img/MADRID/Gatocallejero-min.jpg',
+      fecha: 'string',
+      galeria: 'Madrid',
+    },
+    {
+      nombre: 'Gato callejero II',
+      descripcion: 'string',
+      img: 'assets/img/MADRID/Gatocallejero2-min.jpg',
+      fecha: 'string',
+      galeria: 'Madrid',
+    },
   ];
 
   constructor() { }
