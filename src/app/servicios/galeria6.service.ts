@@ -75,7 +75,7 @@ export class Galeria6Service {
       galeria: 'Retrato',
     },
     {
-      nombre: 'Luna 2',
+      nombre: 'Luna',
       descripcion: 'string',
       img: 'assets/img/RETRATO/Luna2-min.jpg',
       fecha: 'string',
@@ -84,7 +84,7 @@ export class Galeria6Service {
     {
       nombre: 'María',
       descripcion: 'string',
-      img: 'assets/img/RETRATO/María-min.jpg',
+      img: 'assets/img/RETRATO/Maria-min.jpg',
       fecha: 'string',
       galeria: 'Retrato',
     },
@@ -124,14 +124,14 @@ export class Galeria6Service {
       galeria: 'Retrato',
     },
     {
-      nombre: 'Werlisa 2',
+      nombre: 'Werlisa',
       descripcion: 'string',
       img: 'assets/img/RETRATO/Werlisa2-min.jpg',
       fecha: 'string',
       galeria: 'Retrato',
     },
     {
-      nombre: 'Saul',
+      nombre: 'Saúl',
       descripcion: 'string',
       img: 'assets/img/RETRATO/Saul-min.jpg',
       fecha: 'string',
@@ -148,6 +148,13 @@ export class Galeria6Service {
       nombre: 'Irene',
       descripcion: 'string',
       img: 'assets/img/RETRATO/Irene-min.jpg',
+      fecha: 'string',
+      galeria: 'Retrato',
+    },
+    {
+      nombre: 'Israel',
+      descripcion: 'string',
+      img: 'assets/img/RETRATO/Israel2-min.jpg',
       fecha: 'string',
       galeria: 'Retrato',
     },

@@ -222,7 +222,7 @@ export class Galeria5Service {
       galeria: 'Madrid',
     },
     {
-      nombre: 'Gato callejero II',
+      nombre: 'Gato callejero',
       descripcion: 'string',
       img: 'assets/img/MADRID/Gatocallejero2-min.jpg',
       fecha: 'string',

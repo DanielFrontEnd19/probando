@@ -13,6 +13,10 @@ import { Galeria3Service } from './servicios/galeria3.service';
 import { Galeria4Service } from './servicios/galeria4.service';
 import { Galeria5Service } from './servicios/galeria5.service';
 import { Galeria6Service } from './servicios/galeria6.service';
+import { Galeria7Service } from './servicios/galeria7.service';
+import { Galeria8Service } from './servicios/galeria8.service';
+import { Galeria9Service } from './servicios/galeria9.service';
+import { Galeria10Service } from './servicios/galeria10.service';
 
 // Componentes
 import { AppComponent } from './app.component';
@@ -44,7 +48,20 @@ import { Videos2Component } from './components/videos2/videos2.component';
 import { Videos3Component } from './components/videos3/videos3.component';
 import { Videos4Component } from './components/videos4/videos4.component';
 import { MontionComponent } from './components/montion/montion.component';
-import { ComponentsComponent } from './components/components.component';
+import { Foto7Component } from './components/foto7/foto7.component';
+import { Foto7TarjetaComponent } from './components/foto7-tarjeta/foto7-tarjeta.component';
+import { Fotos7Component } from './components/fotos7/fotos7.component';
+import { Fotos8Component } from './components/fotos8/fotos8.component';
+import { Foto8TarjetaComponent } from './components/foto8-tarjeta/foto8-tarjeta.component';
+import { Foto8Component } from './components/foto8/foto8.component';
+import { Foto9Component } from './components/foto9/foto9.component';
+import { Foto9TarjetaComponent } from './components/foto9-tarjeta/foto9-tarjeta.component';
+import { Fotos9Component } from './components/fotos9/fotos9.component';
+import { Fotos10Component } from './components/fotos10/fotos10.component';
+import { Foto10TarjetaComponent } from './components/foto10-tarjeta/foto10-tarjeta.component';
+import { Foto10Component } from './components/foto10/foto10.component';
+
+
 
 
 
@@ -81,7 +98,19 @@ import { ComponentsComponent } from './components/components.component';
     Videos3Component,
     Videos4Component,
     MontionComponent,
-    ComponentsComponent,
+    Foto7Component,
+    Foto7TarjetaComponent,
+    Fotos7Component,
+    Fotos8Component,
+    Foto8TarjetaComponent,
+    Foto8Component,
+    Foto9Component,
+    Foto9TarjetaComponent,
+    Fotos9Component,
+    Fotos10Component,
+    Foto10TarjetaComponent,
+    Foto10Component,
+   
   ],
   imports: [
     BrowserModule,
@@ -96,6 +125,10 @@ import { ComponentsComponent } from './components/components.component';
     Galeria4Service,
     Galeria5Service,
     Galeria6Service,
+    Galeria7Service,
+    Galeria8Service,
+    Galeria9Service,
+    Galeria10Service,
   ],
   bootstrap: [AppComponent]
 })
