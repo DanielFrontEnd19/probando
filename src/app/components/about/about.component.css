@@ -48,9 +48,11 @@ span{
 }
 
 .img-about {
-  width: 350px;
-  height: 450px;
+  max-width: 100%;
+  height: auto;
  margin-bottom: 2em;
-  box-shadow: 10px 15px;
+ margin-right: 2em;
+ 
+  border-radius: 50%;
   
 }

@@ -2,3 +2,8 @@
     color: white;
     background-color: black;
 }
+.header {
+    background-image: linear-gradient(  white,  rgb(250, 240, 230));
+    padding: 20px;
+    text-align: center;
+  }
