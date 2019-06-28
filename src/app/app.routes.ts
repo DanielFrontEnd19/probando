@@ -19,6 +19,8 @@ import { Videos1Component } from './components/videos1/videos1.component';
 import { Videos2Component } from './components/videos2/videos2.component';
 import { Videos3Component } from './components/videos3/videos3.component';
 import { Videos4Component } from './components/videos4/videos4.component';
+import { Videos5Component } from './components/videos5/videos5.component';
+import { Videos6Component } from './components/videos6/videos6.component';
 import { Foto7Component } from './components/foto7/foto7.component';
 import { Fotos7Component } from './components/fotos7/fotos7.component';
 import { Fotos8Component } from './components/fotos8/fotos8.component';
@@ -27,6 +29,7 @@ import { Fotos9Component } from './components/fotos9/fotos9.component';
 import { Foto9Component } from './components/foto9/foto9.component';
 import { Foto10Component } from './components/foto10/foto10.component';
 import { Fotos10Component } from './components/fotos10/fotos10.component';
+
 
 const APP_ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
@@ -55,6 +58,8 @@ const APP_ROUTES: Routes = [
   { path: 'videos2', component: Videos2Component },
   { path: 'videos3', component: Videos3Component },
   { path: 'videos4', component: Videos4Component },
+  { path: 'videos5', component: Videos5Component },
+  { path: 'videos6', component: Videos6Component },
   { path: 'buscar/:termino', component: BuscadorComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];

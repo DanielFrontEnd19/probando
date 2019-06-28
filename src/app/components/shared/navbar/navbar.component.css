@@ -2,8 +2,18 @@
     color: white;
     background-color: black;
 }
-.header {
-    background-image: linear-gradient(  white,  rgb(250, 240, 230));
-    padding: 20px;
-    text-align: center;
+
+
+  .zoom:hover {
+    color: white;
+    background-color: black;
+    transform: scale(1.5);
+    margin-right: 20px;
+    
+  }
+
+  .logo1 {
+    width: 65px;
+    height: 75px;
+    cursor: pointer;
   }

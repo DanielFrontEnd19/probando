@@ -47,6 +47,8 @@ import { Videos1Component } from './components/videos1/videos1.component';
 import { Videos2Component } from './components/videos2/videos2.component';
 import { Videos3Component } from './components/videos3/videos3.component';
 import { Videos4Component } from './components/videos4/videos4.component';
+import { Videos5Component } from './components/videos5/videos5.component';
+import { Videos6Component } from './components/videos6/videos6.component';
 import { MontionComponent } from './components/montion/montion.component';
 import { Foto7Component } from './components/foto7/foto7.component';
 import { Foto7TarjetaComponent } from './components/foto7-tarjeta/foto7-tarjeta.component';
@@ -60,6 +62,8 @@ import { Fotos9Component } from './components/fotos9/fotos9.component';
 import { Fotos10Component } from './components/fotos10/fotos10.component';
 import { Foto10TarjetaComponent } from './components/foto10-tarjeta/foto10-tarjeta.component';
 import { Foto10Component } from './components/foto10/foto10.component';
+
+
 
 
 
@@ -110,6 +114,8 @@ import { Foto10Component } from './components/foto10/foto10.component';
     Fotos10Component,
     Foto10TarjetaComponent,
     Foto10Component,
+    Videos5Component,
+    Videos6Component,
    
   ],
   imports: [

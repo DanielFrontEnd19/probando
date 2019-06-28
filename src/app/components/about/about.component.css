@@ -13,11 +13,11 @@ p{
   white-space: nowrap;
   overflow: hidden;
   width: 100%;
-  animation: type 4s steps(60, end); 
+  animation: type 8s steps(60, end); 
 }
 
 p:nth-child(3){
-  animation: type2 6s steps(60, end);
+  animation: type2 7.5s steps(60, end);
 }
 
 p a{
