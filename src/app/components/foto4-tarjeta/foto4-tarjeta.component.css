@@ -20,3 +20,10 @@ img {
    cursor: pointer;
    
  }
+ .entrada {
+  border-bottom: 6px solid black;
+  border-radius: 5em;
+  margin-bottom: 2em;
+  width: 100%;
+
+}

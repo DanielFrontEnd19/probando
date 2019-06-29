@@ -5,7 +5,8 @@ import { Galeria1Service } from '../../servicios/galeria1.service';
 
 @Component({
   selector: 'app-heroe',
-  templateUrl: './heroe.component.html'
+  templateUrl: './heroe.component.html',
+  styleUrls: ['./heroe.component.css']
 })
 export class HeroeComponent {
 
