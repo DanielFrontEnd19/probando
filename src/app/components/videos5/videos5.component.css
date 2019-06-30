@@ -2,14 +2,17 @@
     border-bottom: 6px solid black;
     border-radius: 5em;
     margin-bottom: 2em;
-    width: 100%;
- 
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
   
 }
 
 .vid {
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: transform .3s;
+    margin-bottom: 15px;
 }
 .vid:hover {
   
