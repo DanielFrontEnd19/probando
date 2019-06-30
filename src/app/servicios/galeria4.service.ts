@@ -33,7 +33,7 @@ export class Galeria4Service {
       galeria: 'Interiorismo',
     },
     {
-      nombre: 'Invernadero del Palacio de Cristal de Arganzuela2',
+      nombre: 'Invernadero del Palacio de Cristal de Arganzuela',
       descripcion: 'string',
       img: 'assets/img/INTERIORISMO/InvernaderodelPalaciodeCristaldeArganzuela2-min.jpg',
       fecha: 'string',
