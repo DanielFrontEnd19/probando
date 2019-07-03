@@ -7,13 +7,15 @@
   .zoom:hover {
     color: white;
     background-color: black;
-    transform: scale(1.5);
+    transform: scale(1.3);
     margin-right: 20px;
+    margin-left: 10px
+  
     
   }
 
   .logo1 {
-    width: 65px;
-    height: 75px;
+    width: 55px;
+    height: 65px;
     cursor: pointer;
   }
