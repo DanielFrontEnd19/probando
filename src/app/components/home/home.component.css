@@ -55,19 +55,16 @@ body{
     cursor: pointer;
 }
 
-div {
+p {
   animation-duration: 3s;
   animation-name: slidein;
+ 
+  animation-direction: alternate;
 }
-div :nth-child(2) {
-  animation-duration: 8s;
-  animation-name: slidein;
-}
-
 @keyframes slidein {
   from {
     margin-left: 100%;
-    width: 300%
+    width: 300%; 
   }
 
   to {
@@ -75,3 +72,9 @@ div :nth-child(2) {
     width: 100%;
   }
 }
+
+
+
+
+
+
