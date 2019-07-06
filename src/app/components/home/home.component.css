@@ -5,7 +5,7 @@ body{
   
   p{
     color: black; 
-text-align: center;
+
     font-size: 90px;
     margin: 10px 0 0 10px;
     white-space: nowrap;
@@ -53,4 +53,25 @@ text-align: center;
   
     transform: scale(1.03);
     cursor: pointer;
+}
+
+div {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+div :nth-child(2) {
+  animation-duration: 8s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
