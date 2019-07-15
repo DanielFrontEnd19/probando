@@ -13,5 +13,13 @@ footer {
     margin-right: 0.5em;
     width: 25px;
     height: 25px;
-    
+    cursor: pointer;
+    transition: transform 1s ease;
 }
+
+
+
+
+  .foto-logo:hover {
+    transform:rotate(360deg);
+  }

@@ -18,4 +18,22 @@
     width: 55px;
     height: 65px;
     cursor: pointer;
+    transition: transform 1s ease;
+  }
+
+
+  .logo1:hover {
+    transform:rotate(360deg);
+  }
+
+   .logo1 {
+    width: 55px;
+    height: 65px;
+    cursor: pointer;
+    transition: transform 1s ease;
+  }
+
+
+  .logo1:hover {
+    transform:rotate(360deg);
   }
