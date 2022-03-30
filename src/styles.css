@@ -1,10 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans:wght@500&family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans:wght@500&family=Nova+Mono&family=Space+Mono&display=swap');
 body {
-    padding-bottom: 0px;
+    margin: 0;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    display: grid;
+    background-color: rgb(250, 240, 230);
+    
+}
+a li {
+    font-family: 'Space Mono', monospace;
+    padding: 1em 0;
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .main-container {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     
   
 }
@@ -38,3 +54,31 @@ body {
 .fadeIn {
     animation-name: fadeIn;
 }
+
+.footer {
+    color: white;
+  
+    font-size: 10.5pt;
+    background-color: black;
+    align-self: flex-end;
+    padding: 1em 0;
+   
+  
+}
+
+.foto-logo {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: transform 1s ease;
+}
+
+
+
+
+  .foto-logo:hover {
+    transform:rotate(360deg);
+  
+  }
